@@ -1,0 +1,52 @@
+*{
+    background-color: rgb(192, 203, 194);
+}
+h1 {
+    color: red;
+}
+
+p{
+    background-color: rgb(204, 170, 235);
+}
+
+h2{
+    color: aqua;
+    background-color: rgb(152, 216, 49);
+}
+
+div{
+    background-color: aquamarine;
+}
+
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
+    color: red;
+}
+
+button{
+    font-size: 20px;
+}
+
+.blue{
+    color: blue;
+
+}
+
+#moreblue{
+    background-color: rgb(68, 14, 184);
+}
+button:hover{
+    background-color: cadetblue;
+}
+
+.blue:hover{
+    background-color: green;
+    font-size: 80px;
+}
+
+div h2{
+    font-size: 100px;
+}
