@@ -1,0 +1,60 @@
+/* https://www.w3schools.com/html/html_blocks.asp */
+*{
+    /* background-color: rgb(6, 8, 233); */
+    color: #562dd1;
+}
+
+/* colors: specify the color,rgb,  hex */
+
+h1{
+    font-size: 90px;
+    font-family: sans-serif;
+    border: 2px solid black;
+    /* text-align: right; */
+    margin: 60px;
+}
+.pink{
+    color: pink;
+    background-image:url("https://3.bp.blogspot.com/-J152Cn3Rb4o/URD0M9rrAhI/AAAAAAAABeg/y3C6uJBVTIs/s1600/blue+roses+pictures+(1).jpg");
+
+}
+/* .boxxy{
+    /* background-color: blueviolet; */
+    
+
+.small-p-text{
+    /* background-color: red; */
+    height: 200px;
+    background-image:url("https://3.bp.blogspot.com/-J152Cn3Rb4o/URD0M9rrAhI/AAAAAAAABeg/y3C6uJBVTIs/s1600/blue+roses+pictures+(1).jpg");
+    overflow: scroll;
+}
+.myborder{
+    border: 3px solid yellow;
+    border-radius: 15px;
+}
+
+.tomato{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    border: 10px dotted blue;
+}
+
+#box1,#box2,#box3{
+    height: 120px;
+    width: 120px;
+    background-color: yellowgreen;
+    /* margin-bottom: 5px; */
+}
+#box1{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#box2{
+    margin-bottom: 30px;
+    display: block;
+}
+#box3{
+    margin-bottom: 50px;
+}
+
