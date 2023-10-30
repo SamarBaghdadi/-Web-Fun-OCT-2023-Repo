@@ -1,4 +1,3 @@
-var count=0;
 
 
 console.log("Hello from script");
@@ -25,12 +24,29 @@ function changeColor(){
     myColor.style.color="white";
 }
 
+
+
+//Declare a variable count outside of my likes() function
+
+var count=0;
+
 var message=document.querySelector("p");
 
 function likes(){
     
     count=count+1;
-    message.innerText="I have "+ count + " likes";
+    if (count==1){
+        message.innerText="I have "+count + "like"
+    }else{message.innerText="I have "+ count + " likes";}
+    
     // count++;
 
+}
+
+var myDivision = document.querySelector(".mydiv");
+function showInnerText(){
+
+    console.log("innertext: "+myDivision.innerText);
+    console.log("innerHTML: " +myDivision.innerHTML);
+    myDivision.style.backgroundColor="green";
 }
