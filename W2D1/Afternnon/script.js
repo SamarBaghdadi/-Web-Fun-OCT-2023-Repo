@@ -1,17 +1,17 @@
 console.log("hello from script")
 
 function chooseCarMake(element){
-    alert("you choose the following mark : "+element.value);
-//     console.log("Start");
-// setTimeout(alert , 5000,element.value);
-// console.log("End");
+    // alert("you choose the following mark : "+element.value);
+    console.log("Start");
+setTimeout(alert , 5000,"you choose the following mark : "+element.value);
+console.log("End");
 
 }
-
+// variable declaration
 var myh1=document.querySelector(".tomato");
-
 var mydiv =document.querySelector("#myfavcolor");
 var myinput = document.querySelector(".myinput");
+
 function writeText(){
     // console.log(element.value);
     // console.log(myh1);
